@@ -1,0 +1,1 @@
+Implements the socialshareprivacy WCF package into the WBB software.
