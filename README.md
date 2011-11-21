@@ -7,7 +7,7 @@ Implements the socialshareprivacy WCF package into the WBB software.
 Version notes
 -------------
 
-The currently available source code represents an early alpha-version of WCF-Socialshareprivacy.
+The currently available source code represents an early alpha-version of WBB-Socialshareprivacy.
 
 Contribution
 ------------
