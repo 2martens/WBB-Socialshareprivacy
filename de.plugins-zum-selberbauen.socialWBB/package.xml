@@ -7,7 +7,7 @@
         <packagedescription language="de-informal"><![CDATA[WBB-Integration des WCF-Socialshareprivacy Plugins]]></packagedescription>
         <standalone>0</standalone>
         <isunique>0</isunique>
-        <version>1.0.0 Beta 4</version>
+        <version>1.0.0 Beta 5</version>
         <date>2011-11-22</date>
         <plugin>com.woltlab.wbb</plugin>
     </packageinformation>
@@ -33,5 +33,11 @@
     <instructions type="update" fromversion="1.0.0 Beta 2">
         <!-- xml based -->
         <eventlistener>eventlistener.xml</eventlistener>
+        <!-- files -->
+        <files>files.tar</files>
+    </instructions>
+    <instructions type="update" fromversion="1.0.0 Beta 4">
+        <!-- files -->
+        <files>files.tar</files>
     </instructions>
 </package>
