@@ -17,7 +17,7 @@ class ThreadSocialshareprivacyListener implements EventListener {
      * @see EventListener::execute()
      */
     public function execute($eventObj, $className, $eventName) {
-        if ($className == 'assignVariables') $this->assignVariables();
+        if ($eventName == 'assignVariables') $this->assignVariables();
     }
     
     /**
