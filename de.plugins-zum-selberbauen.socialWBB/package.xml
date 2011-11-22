@@ -2,12 +2,12 @@
 <package name="de.plugins-zum-selberbauen.socialWBB" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
     <packageinformation>
         <packagename><![CDATA[WBB-Socialshareprivacy]]></packagename>
-        <packagedescription><![CDATA[WBB integration of the WCF-Socialshareprivacy plugin]]></packagedescription>
-        <packagedescription language="de"><![CDATA[WBB-Integration des WCF-Socialshareprivacy Plugins]]></packagedescription>
-        <packagedescription language="de-informal"><![CDATA[WBB-Integration des WCF-Socialshareprivacy Plugins]]></packagedescription>
+        <packagedescription><![CDATA[WBB integration of the WCF-Socialshareprivacy package]]></packagedescription>
+        <packagedescription language="de"><![CDATA[WBB-Integration des WCF-Socialshareprivacy-Paketes]]></packagedescription>
+        <packagedescription language="de-informal"><![CDATA[WBB-Integration des WCF-Socialshareprivacy-Paketes]]></packagedescription>
         <standalone>0</standalone>
         <isunique>0</isunique>
-        <version>1.0.0 Beta 5</version>
+        <version>1.0.0</version>
         <date>2011-11-22</date>
         <plugin>com.woltlab.wbb</plugin>
     </packageinformation>
@@ -18,7 +18,7 @@
     <requiredpackages>
         <requiredpackage minversion="2.1.1">com.woltlab.wbb</requiredpackage>
         <requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
-        <requiredpackage minversion="1.0.0 Beta 4" file="requirements/de.plugins-zum-selberbauen.socialWCF.tar">de.plugins-zum-selberbauen.socialWCF</requiredpackage>
+        <requiredpackage minversion="1.0.0" file="requirements/de.plugins-zum-selberbauen.socialWCF.tar">de.plugins-zum-selberbauen.socialWCF</requiredpackage>
     </requiredpackages>
     <excludedpackages>
         <excludedpackage version="2.0.0*">com.woltlab.wcf</excludedpackage>
@@ -30,14 +30,6 @@
         <!-- xml based -->
         <eventlistener>eventlistener.xml</eventlistener>
     </instructions>
-    <instructions type="update" fromversion="1.0.0 Beta 2">
-        <!-- xml based -->
-        <eventlistener>eventlistener.xml</eventlistener>
-        <!-- files -->
-        <files>files.tar</files>
-    </instructions>
-    <instructions type="update" fromversion="1.0.0 Beta 4">
-        <!-- files -->
-        <files>files.tar</files>
+    <instructions type="update" fromversion="1.0.0 Beta 5">
     </instructions>
 </package>
