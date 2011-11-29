@@ -24,6 +24,7 @@ class ThreadSocialshareprivacyListener implements EventListener {
      * Appends the socialshareprivacy container.
      */
     protected function assignVariables() {
+        if (!MODULE_SOCIALSHAREPRIVACY) return;
         $templateName = 'socialshareprivacy';
         $content = WCF::getTPL()->fetch($templateName);
         WCF::getTPL()->append('additionalBoxes', $content);
