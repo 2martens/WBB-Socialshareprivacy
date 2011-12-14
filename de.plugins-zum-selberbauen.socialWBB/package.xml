@@ -7,7 +7,7 @@
         <packagedescription language="de-informal"><![CDATA[WBB-Integration des WCF-Socialshareprivacy-Paketes]]></packagedescription>
         <standalone>0</standalone>
         <isunique>0</isunique>
-        <version>1.1.0 Alpha 1</version>
+        <version>1.1.0 Beta 1</version>
         <date>2011-12-14</date>
         <plugin>com.woltlab.wbb</plugin>
     </packageinformation>
@@ -18,7 +18,7 @@
     <requiredpackages>
         <requiredpackage minversion="2.1.1">com.woltlab.wbb</requiredpackage>
         <requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
-        <requiredpackage minversion="1.1.0 Alpha 1" file="requirements/de.plugins-zum-selberbauen.socialWCF.tar.gz">de.plugins-zum-selberbauen.socialWCF</requiredpackage>
+        <requiredpackage minversion="1.1.0 Beta 1" file="requirements/de.plugins-zum-selberbauen.socialWCF.tar.gz">de.plugins-zum-selberbauen.socialWCF</requiredpackage>
     </requiredpackages>
     <excludedpackages>
         <excludedpackage version="2.0.0*">com.woltlab.wcf</excludedpackage>
@@ -29,6 +29,9 @@
         
         <!-- xml based -->
         <eventlistener>eventlistener.xml</eventlistener>
+    </instructions>
+    
+    <instructions type="update" fromversion="1.1.0 Alpha 2">
     </instructions>
     
     <instructions type="update" fromversion="1.0.5">
