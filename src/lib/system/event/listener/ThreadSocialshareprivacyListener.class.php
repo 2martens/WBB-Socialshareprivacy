@@ -30,7 +30,7 @@ class ThreadSocialshareprivacyListener implements EventListener {
     protected function assignVariables($eventName) {
         if (!defined('MODULE_SOCIALSHAREPRIVACY') || !MODULE_SOCIALSHAREPRIVACY) return;
         if (WCF::getUser()->getUserOption('seeSocialshareprivacy') !== null && !WCF::getUser()->getUserOption('seeSocialshareprivacy')) return;
-        WCF::getTPL()->assign('event', $eventName);
+        WCF::getTPL()->assign('eventName', $eventName);
         $templateName = 'socialshareprivacy';
         $content = WCF::getTPL()->fetch($templateName);
         if ($eventName == 'assignVariables' && GENERAL_SOCIALSHAREPRIVACY_GENERAL_LOCATION == 'thread') {
